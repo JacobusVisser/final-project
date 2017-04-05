@@ -104,6 +104,7 @@ h5 {
 nav {
 	right: 0px;
 	top: 150px;
+	overflow-y: scroll;
 }
 
 button.accordion {
@@ -143,6 +144,16 @@ button.accordion, div.panel div {
 .panel a {
 	text-decoration: none;
 	color: black;
+}
+
+#backdrop {
+	width: 280px;
+	height: 100%;
+	background-color: rgb(240,240,240);
+	z-index: -1;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
 }
 
 
